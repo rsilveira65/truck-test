@@ -29,7 +29,6 @@ docker --version
 docker-compose --version
 ```
 
-In the first moment, docker will download and install the base PHP7 image and all necessary libs and extensions to run the project properly. After that, the calculate command must be executed.
 ```sh
 docker-compose run application php main.php run:calculate --products=inputs/cargo.csv --trucks=inputs/trucks.csv
 
