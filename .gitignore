@@ -1,0 +1,4 @@
+.DS_Store
+application/vendor
+.idea
+application/logs/application.log

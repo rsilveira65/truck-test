@@ -1,0 +1,29 @@
+{
+  "name": "loadsmart-test",
+  "authors": [
+    {
+      "name": "Rafael Silveira",
+      "email": "rsilveiracc@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "src\\": "src/"
+    }
+  },
+  "require": {
+    "symfony/yaml": "2.5.4",
+    "monolog/monolog": "1.2.1",
+    "symfony/console": "^2.8",
+    "symfony/dependency-injection": "^3.1",
+    "kzykhys/php-csv-parser": "^1.4",
+    "fzaninotto/faker": "^1.7",
+    "keboola/csv": "^1.4"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^6.5"
+  },
+  "scripts": {
+    "test": "vendor/bin/phpunit tests"
+  }
+}
